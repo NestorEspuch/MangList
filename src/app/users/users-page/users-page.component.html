@@ -1,0 +1,8 @@
+<main id="mainIndex">
+  <div id="content">
+    <p class="nonUsers" *ngIf="!haveContent">No se han encontrado usuarios con ese nombre</p>
+    <ml-user-card *ngFor="let user of users | usersFilter: toSearch" [user]="user"></ml-user-card>
+  </div>
+</main>
+
+<ml-slide-button></ml-slide-button>

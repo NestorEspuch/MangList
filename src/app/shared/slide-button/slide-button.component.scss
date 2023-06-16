@@ -1,0 +1,40 @@
+.go-top {
+  background-repeat: no-repeat;
+  font-size: 20px;
+  color: #a309cd;
+  color: #23282E !important;
+  cursor: pointer;
+  position: fixed;
+  bottom: 9%;
+  right: 10px;
+  z-index: 20;
+}
+
+.go-top:hover {
+  color: #a309cd !important;
+}
+
+@media screen and (max-width: 1035px) {
+  .go-top {
+    bottom: 14%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .go-top {
+    bottom: 16%;
+  }
+}
+
+@media screen and (max-width: 344px) {
+  .go-top {
+    bottom: 20%;
+  }
+}
+
+
+@media screen and (max-width: 335px) {
+  .go-top {
+    bottom: 15% !important;
+  }
+}
